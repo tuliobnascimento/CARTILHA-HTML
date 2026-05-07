@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartilha: Rompendo o Silêncio</title>
+    <style>
+        :root {
+            --primary-color: #6a1b9a;
+            --secondary-color: #9c27b0;
+            --accent-color: #f3e5f5;
+            --text-dark: #333;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            border-left: 5px solid var(--primary-color);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .alert-box {
+            background-color: #fff3f3;
+            border: 1px solid #ffcdd2;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .channels {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .channel-item {
+            background: var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .channel-number {
+            display: block;
+            font-size: 1.8rem;
+            color: var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rompendo o Silêncio</h1>
+        <p>Guia de Apoio e Enfrentamento à Violência contra a Mulher</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="card">
+            <h2>O que é Violência contra a Mulher?</h2>
+            <p>A violência não é apenas física. De acordo com a <strong>Lei Maria da Penha</strong>, ela pode ser classificada de cinco formas:</p>
+            <ul style="margin-left: 1.5rem; margin-top: 1rem;">
+                <li><strong>Física:</strong> Ofensa à integridade ou saúde corporal.</li>
+                <li><strong>Psicológica:</strong> Dano emocional, diminuição da autoestima ou controle de ações.</li>
+                <li><strong>Sexual:</strong> Presenciar, manter ou participar de relação sexual não desejada mediante coerção.</li>
+                <li><strong>Patrimonial:</strong> Retenção, subtração ou destruição de objetos, instrumentos de trabalho e bens.</li>
+                <li><strong>Moral:</strong> Calúnia, difamação ou injúria.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Ciclo da Violência</h2>
+            <p>Muitas vezes a violência ocorre em um ciclo que se repete:</p>
+            <div class="alert-box">
+                <ol>
+                    <li><strong>Aumento da tensão:</strong> Insultos e ameaças.</li>
+                    <li><strong>Ato de violência:</strong> Explosão do agressor.</li>
+                    <li><strong>Lua de mel:</strong> Arrependimento e promessas de mudança.</li>
+                </ol>
+            </div>
+            <p><em>Rompendo o silêncio, você quebra esse ciclo.</em></p>
+        </section>
+
+        <section class="card">
+            <h2>Canais de Denúncia e Ajuda</h2>
+            <p>Você não está sozinha. Utilize os canais oficiais para buscar ajuda ou realizar uma denúncia anônima:</p>
+            
+            <div class="channels">
+                <div class="channel-item">
+                    Central de Atendimento
+                    <span class="channel-number">Ligue 180</span>
+                </div>
+                <div class="channel-item">
+                    Polícia Militar
+                    <span class="channel-number">Ligue 190</span>
+                </div>
+                <div class="channel-item">
+                    Direitos Humanos
+                    <span class="channel-number">Disque 100</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Campanha de Conscientização Social</p>
+        <p>LINK DO PRODUTO NA BIO!</p>
+    </footer>
+
+</body>
+</html>
